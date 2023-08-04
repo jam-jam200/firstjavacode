@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class ifStatements {
+    public static void main(String[] args) {
+        System.out.println("Enter three numbers: ");
+        Scanner scanner = new Scanner(System.in);
+        double num1 = scanner.nextDouble();
+        double num2 = scanner.nextDouble();
+//        double num3 = scanner.nextDouble();
+
+        if (num1 > num2){
+            System.out.println("Num1 is greater than num 2");
+        }
+        else {
+            System.out.println("Sorry, num2 is greater than num1");
+        }
+
+    }
+}
