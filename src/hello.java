@@ -9,6 +9,6 @@ public class hello {
         boolean isDark = false;
 
         System.out.println("Hi, my name is " + myName + ". I am " + isDark);
-
+        System.out.println("I am " + var1 + "years old.  ");
     }
 }
