@@ -11,6 +11,13 @@ public class carSelector {
 
             if(answer.equals("red")){
                 System.out.println("We have it, would you like to see it?");
+                String ansRed = scanner.next();
+                if(ansRed.equalsIgnoreCase("no")) {
+                    System.out.println("We'll check for something else");
+                }
+                else {
+                    System.out.println("Your car will be ready in a jiffy!");
+                }
             }
             else if (answer.equalsIgnoreCase("orange")){
                 System.out.println("Come take a look.");
