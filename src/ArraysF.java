@@ -11,6 +11,7 @@ public class ArraysF {
             int dataInput1 = data[i];
         }
         System.out.println(data);
+//        i'm back people
 
     }
 }
