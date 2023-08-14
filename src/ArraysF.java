@@ -11,7 +11,12 @@ public class ArraysF {
             data[i] = scanner.nextInt();
         }
 
+        System.out.println("You have entered the following numbers: ");
+        for (int number : data) {
+            System.out.println(number);
+        }
 
+        scanner.close();
 
     }
 }
