@@ -4,6 +4,12 @@ public class ArraysF {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] data = new int[5];
+        String[] words = new String[3];
+
+        for (int w = 0; w < words.length; w++) {
+            System.out.println("Enter 5 words: " + (w + 1) + " : ");
+            words[w] = scanner.next();
+        }
 
         for (int i = 0; i < data.length; i++) {
             System.out.println("Enter 5 numbers: " + (i + 1) + " : ");
