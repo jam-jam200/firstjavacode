@@ -9,7 +9,7 @@ public class sumDigitsToSingle {
         String stringNum = String.valueOf(num);
         int sum = 0;
         for (int i = 0; i < stringNum.length(); i++) {
-            sum += Integer.parseInt(stringNum);
+            sum += Character.getNumericValue(stringNum.charAt(i));
         }
         System.out.println("results is " + sum);
 
