@@ -6,7 +6,12 @@ public class sumDigitsToSingle {
            System.out.println(num);
         }
 
-
+        String stringNum = String.valueOf(num);
+        int sum = 0;
+        for (int i = 0; i < stringNum.length(); i++) {
+            sum += Integer.parseInt(stringNum);
+        }
+        System.out.println("results is " + sum);
 
     }
 
