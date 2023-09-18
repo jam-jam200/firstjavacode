@@ -1,6 +1,6 @@
 public class sumDigitsToSingle {
     public static void main(String[] args){
-        int num = 23;
+        int num = 9875;
 
         if (num < 10) {
            System.out.println(num);
