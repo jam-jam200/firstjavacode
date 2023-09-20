@@ -8,7 +8,9 @@ public class NewCarSelector {
         carData[4] = "Purple";
 
         for(int i = 0; i < carData.length; i++) {
-
+            if(carData[i].equals("Blue")) {
+                System.out.println("Car color numbered " + i + "is Blue");
+            }
         }
     }
 }
