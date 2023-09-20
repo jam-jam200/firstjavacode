@@ -9,12 +9,14 @@ public class sumDigitsToSingle {
     public static int sumDigits(int number) {
         if (number < 10) {
             System.out.println(number);
-        }
+        } else {
+            String stringNum = String.valueOf(number);
+            int sum = 0;
+            for (int i = 0; i < stringNum.length(); i++) {
+                sum += Character.getNumericValue(stringNum.charAt(i));
 
-        String stringNum = String.valueOf(number);
-        int sum = 0;
-        for (int i = 0; i < stringNum.length(); i++) {
-            sum += Character.getNumericValue(stringNum.charAt(i));
+                return sum;
+            }
         }
 
         return number;
