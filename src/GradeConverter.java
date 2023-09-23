@@ -10,7 +10,6 @@ public class GradeConverter {
         double[] numCourses = new double[x];
         String[] courseName = new String[x];
         double sum = 0;
-        double average = sum / numCourses.length;
 
         for(int i = 0; i < numCourses.length; i++) {
             //looping through so user can enter scores of courses
