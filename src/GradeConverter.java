@@ -12,7 +12,13 @@ public class GradeConverter {
 
         for(int i = 0; i< numCourses.length; i++) {
             //looping through so user can enter scores of courses
-            System.out.println("Enter score for course " + (i + 1) + ":");
+            for (int j = 0; j < courseName.length; j++) {
+                System.out.println("Enter name of course " + (i + 1) + ":");
+                courseName[j] = scanner.next();
+            System.out.println("Enter score for " + courseName[j]  + (i + 1) + ":");
+
+            }
+
         }
     }
 
