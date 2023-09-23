@@ -27,6 +27,8 @@ public class GradeConverter {
 
         double average = sum / numCourses.length;
 
+        System.out.println(average);
+
 
 
 
