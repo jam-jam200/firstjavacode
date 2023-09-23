@@ -11,6 +11,13 @@ public class Lists {
 
         int fruitSize = fruits.size();
         System.out.println("fruit size is: " + fruitSize);
+        System.out.println("previous list: " + fruits);
         System.out.println(fruits.get(3));
+
+        fruits.set(0, "Carrots");
+        System.out.println("new list: " + fruits);
+
+        fruits.remove(2);
+
     }
 }
