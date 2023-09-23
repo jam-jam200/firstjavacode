@@ -11,17 +11,18 @@ public class GradeConverter {
         String[] courseName = new String[x];
         double sum = 0;
 
+        for(int i = 0; i < courseName.length; i++) {
+            //looping through so user can enter scores of courses
+            System.out.println("Enter name for course " + (i + 1) + ":");
+            courseName[i] = scanner.next();
+        }
+
         for(int i = 0; i < numCourses.length; i++) {
             //looping through so user can enter scores of courses
             System.out.println("Enter score for course " + (i + 1) + ":");
             numCourses[i] = scanner.nextDouble();
         }
 
-        for(int i = 0; i < courseName.length; i++) {
-            //looping through so user can enter scores of courses
-            System.out.println("Enter name for course " + (i + 1) + ":");
-            courseName[i] = scanner.next();
-        }
 
 
 
