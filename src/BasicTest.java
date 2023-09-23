@@ -16,5 +16,12 @@ public class BasicTest {
 
         System.out.println("Good answer!");
         System.out.println("Question 1: What is my favourite fruit? ");
+
+        String answ2 = scanner.next();
+        while (!answ2.equals("Abuja")) {
+            System.out.println("Answer is incorrect! Try again...");
+            answ2 = scanner.next();
+        }
+        System.out.println("Good answer! Bye...");
     }
 }
