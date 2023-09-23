@@ -18,7 +18,8 @@ public class BasicTest {
         System.out.println("Question 1: What is my favourite fruit? ");
 
         String answ2 = scanner.next();
-        while (!answ2.equals("Abuja")) {
+        while (!answ2.equalsIgnoreCase(
+                "Banana")) {
             System.out.println("Answer is incorrect! Try again...");
             answ2 = scanner.next();
         }
