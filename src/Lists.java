@@ -20,7 +20,7 @@ public class Lists {
         fruits.remove(2);
         System.out.println("new list: " + fruits);
 
-        fruits.clear();
+        fruits.clear(); //clears list
         System.out.println("new list: " + fruits);
 
 
