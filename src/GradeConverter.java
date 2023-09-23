@@ -25,20 +25,21 @@ public class GradeConverter {
             sum = sum + numCourses[i];
         }
 
+
         double average = sum / numCourses.length;
 
         if(average > 80) {
-            System.out.println("Your grade is A");
+            System.out.println("Your grade is A because you scored " + average);
         } else if (average < 80 && average > 60) {
-            System.out.println("Your grade is B");
+            System.out.println("Your grade is B because you scored " + average);
         } else if (average < 60 && average > 45) {
-            System.out.println("Your grade is C");
+            System.out.println("Your grade is C because you scored " + average);
         } else if (average < 45 && average > 40) {
-            System.out.println("Your grade is D");
+            System.out.println("Your grade is D because you scored " + average);
         } else if (average < 40 && average > 35 ) {
-            System.out.println("Your grade is E");
+            System.out.println("Your grade is E because you scored " + average);
         } else {
-            System.out.println("Your grade is F");
+            System.out.println("Your grade is F because you scored " + average);
         }
 
 
