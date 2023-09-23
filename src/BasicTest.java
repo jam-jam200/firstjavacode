@@ -23,6 +23,6 @@ public class BasicTest {
             System.out.println("Answer is incorrect! Try again...");
             answ2 = scanner.next();
         }
-        System.out.println("Good answer! Bye...");
+        System.out.println("Good answer! Bye... ");
     }
 }
