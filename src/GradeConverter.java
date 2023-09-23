@@ -21,7 +21,11 @@ public class GradeConverter {
             //looping through so user can enter scores of courses
             System.out.println("Enter score for course " + (i + 1) + ":");
             numCourses[i] = scanner.nextDouble();
+
+            sum = sum + numCourses[i];
         }
+
+        double average = sum / numCourses.length;
 
 
 
