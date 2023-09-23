@@ -9,17 +9,19 @@ public class GradeConverter {
         //array to store scores of courses
         double[] numCourses = new double[x];
         String[] courseName = new String[x];
+        double sum = 0;
 
-        for(int i = 0; i< numCourses.length; i++) {
-            //looping through so user can enter scores and names of courses
-            for (int j = 0; j < courseName.length; j++) {
-                System.out.println("Enter name of course: ");
-                courseName[j] = scanner.next();
-            System.out.println("Enter score for " + courseName[j] + ":");
-                numCourses[i] = scanner.nextDouble();
-            }
+        for(int i = 0; i < numCourses.length; i++) {
+            //looping through so user can enter scores of courses
+            System.out.println("Enter score for course " + (i + 1) + ":");
+            numCourses[i] = scanner.nextDouble();
+            sum += i;
+
+            double average = sum / numCourses.length;
 
         }
+
+        System.out.println(sum);
     }
 
 }
