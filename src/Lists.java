@@ -20,5 +20,9 @@ public class Lists {
         fruits.remove(2);
         System.out.println("new list: " + fruits);
 
+        fruits.clear();
+        System.out.println("new list: " + fruits);
+
+
     }
 }
