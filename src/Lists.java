@@ -17,7 +17,7 @@ public class Lists {
         fruits.set(0, "Carrots");
         System.out.println("new list: " + fruits);
 
-        fruits.remove(2);
+        fruits.remove(2); //removes ite+m+s from the+ list
         System.out.println("new list: " + fruits);
 
         fruits.clear(); //clears list
