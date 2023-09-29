@@ -9,7 +9,7 @@ public class Maps {
         colorPaint.put("Yellow", 7);
         colorPaint.put("Green", 1);
         colorPaint.put("White", 4);
-
+    //
         System.out.println(colorPaint);
     }
 }
