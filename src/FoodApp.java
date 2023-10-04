@@ -50,7 +50,11 @@ public class FoodApp {
                         String pass2 = scanner.next();
                         while (pass2 != pass1) {
                             System.out.println("Wrong Password. Try again!");
-                            ans5 = scanner.next();
+                            pass2 = scanner.next();
+                        }
+
+                        if(pass2 == pass1) {
+                            System.out.println("Order is Ready: 🍺🍚 \nThanks for ordering here😊😊");
                         }
 
                     }
