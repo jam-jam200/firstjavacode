@@ -15,6 +15,14 @@ public class FoodApp {
         String pass1 = scanner.next();
         System.out.println("Your password is: " + pass1);
 
+        System.out.println("Are you hungry? Yes or No: ");
+        String ans2 = scanner.next();
+
+        while (ans2.equalsIgnoreCase("yes")) {
+            System.out.println("We have Indomie, Swallow and Jellof Rice. WHat would you like among those? ");
+            String ans3 = scanner.next();
+        }
+        }
 
 
     }
