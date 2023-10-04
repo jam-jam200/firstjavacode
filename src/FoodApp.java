@@ -1,3 +1,4 @@
+import java.util.Objects;
 import java.util.Scanner;
 
 public class FoodApp {
@@ -25,7 +26,7 @@ public class FoodApp {
             while(!ans3.equalsIgnoreCase("rice") && !ans3.equalsIgnoreCase("beans") && !ans3.equalsIgnoreCase("garri")) {
                 System.out.println("Sorry😓, You have to choose from the list. Try again!");
                 ans3 = scanner.next();
-            } if(ans3.equalsIgnoreCase("rice") && ans3.equalsIgnoreCase("beans") && ans3.equalsIgnoreCase("garri")) {
+            } if(ans3.equalsIgnoreCase("rice") || ans3.equalsIgnoreCase("beans") || ans3.equalsIgnoreCase("garri")) {
                 System.out.println("Would you like a drink with that?: ");
                 String ans4 = scanner.next();
 
@@ -43,17 +44,20 @@ public class FoodApp {
                         ans5 = scanner.next();
                     }
 
-                    if(ans5.equalsIgnoreCase("Sprite") && ans5.equalsIgnoreCase("Juice")) {
+                    if(ans5.equalsIgnoreCase("Sprite") || ans5.equalsIgnoreCase("Juice")) {
                         System.out.println("You have ordered " + ans3 + " with a bottle of " + ans5 + "\n To proceed enter password again: ");
 
                         String pass2 = scanner.next();
-                        while (pass2 != pass1) {
-                            System.out.println("Wrong Password. Try again!");
-                            pass2 = scanner.next();
-                        }
+//                        while (!pass2.equals(pass1)) {
+//                            System.out.println("Wrong Password. Try again!");
+//                            pass2 = scanner.next();
+//                        }
 
                         if(pass2 == pass1) {
                             System.out.println("Order is Ready: 🍺🍚 \nThanks for ordering here😊😊");
+                        } else {
+                            System.out.println("Wrong Password. Try again!");
+                            pass2 = scanner.next();
                         }
 
                     }
