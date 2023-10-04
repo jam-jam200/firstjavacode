@@ -48,18 +48,27 @@ public class FoodApp {
                         System.out.println("You have ordered " + ans3 + " with a bottle of " + ans5 + "\n To proceed enter password again: ");
 
                         String pass2 = scanner.next();
-//                        while (!pass2.equals(pass1)) {
-//                            System.out.println("Wrong Password. Try again!");
-//                            pass2 = scanner.next();
-//                        }
+                        //while (!pass2.equals(pass1)) {
+                          //  System.out.println("Wrong Password. Try again!");
+                            //pass2 = scanner.next();
+                        //}
 
-                        if(pass2 == pass1) {
+                        if(pass2.equals(pass1)) {
                             System.out.println("Order is Ready: 🍺🍚 \nThanks for ordering here😊😊");
                         } else {
                             System.out.println("Wrong Password. Try again!");
                             pass2 = scanner.next();
                         }
 
+                    }
+                } else{
+                    String pass2 = scanner.next();
+
+                    if(pass2.equals(pass1)) {
+                        System.out.println("Order is Ready: 🍺🍚 \nThanks for ordering here😊😊");
+                    } else {
+                        System.out.println("Wrong Password. Try again!");
+                        pass2 = scanner.next();
                     }
                 }
             }
