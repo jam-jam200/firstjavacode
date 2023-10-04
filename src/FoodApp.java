@@ -37,6 +37,23 @@ public class FoodApp {
 
                 if(ans4.equalsIgnoreCase("yes")) {
                     System.out.println("Would you like Sprite or Juice");
+                    String ans5 = scanner.next();
+
+                    while (!ans5.equalsIgnoreCase("Sprite") || !ans5.equalsIgnoreCase("Juice")) {
+                        System.out.println("Sorry😓, You have to choose from the list. Try again!");
+                        ans5 = scanner.next();
+                    }
+
+                    if(ans5.equalsIgnoreCase("Sprite") || ans5.equalsIgnoreCase("Juice")) {
+                        System.out.println("You have ordered " + ans3 + " with a bottle of " + ans5 + "\n To proceed enter password again: ");
+
+                        String pass2 = scanner.next();
+                        while (pass2 != pass1) {
+                            System.out.println("Wrong Password. Try again!");
+                            ans5 = scanner.next();
+                        }
+
+                    }
                 }
             }
         } else {
