@@ -34,6 +34,10 @@ public class FoodApp {
                     System.out.println("wrong command!");
                     ans4 = scanner.next();
                 }
+
+                if(ans4.equalsIgnoreCase("yes")) {
+                    System.out.println("Would you like Sprite or Juice");
+                }
             }
         } else {
             System.out.println("Alright, have a good day👋👋");
