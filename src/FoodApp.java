@@ -26,6 +26,15 @@ public class FoodApp {
                 System.out.println("Sorry😓, You have to choose from the list. Try again!");
                 ans3 = scanner.next();
             }
+            if(ans3.equalsIgnoreCase("Rice") || ans3.equalsIgnoreCase("Swallow") || ans3.equalsIgnoreCase("Fried Rice")) {
+                System.out.println("Would you like a drink with that?: ");
+                String ans4 = scanner.next();
+
+                while (!ans4.equalsIgnoreCase("yes") || !ans4.equalsIgnoreCase("no")) {
+                    System.out.println("wrong command!");
+                    ans4 = scanner.next();
+                }
+            }
         } else {
             System.out.println("Alright, have a good day👋👋");
         }
