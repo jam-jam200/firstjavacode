@@ -19,8 +19,13 @@ public class FoodApp {
         String ans2 = scanner.next();
 
         if (ans2.equalsIgnoreCase("yes")) {
-            System.out.println("We have Indomie, Swallow and Jellof Rice. WHat would you like among those? ");
+            System.out.println("We have Rice, Swallow and Fried Rice. WHat would you like among those? ");
             String ans3 = scanner.next();
+
+            while(!ans3.equalsIgnoreCase("Rice") || !ans3.equalsIgnoreCase("Swallow") || !ans3.equalsIgnoreCase("Rice")) {
+                System.out.println("Sorry😓, You have to choose from the list. Try again!");
+                ans3 = scanner.next();
+            }
         } else {
             System.out.println("Alright, have a good day👋👋");
         }
