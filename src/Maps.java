@@ -11,9 +11,10 @@ public class Maps {
         colorPaint.put("Green", 1);
         colorPaint.put("White", 4);
 
-        colorPaint.remove("Pink");
+        colorPaint.remove("Pink"); //removing an element from the map
 
 
-        System.out.println(colorPaint);
+        System.out.println(colorPaint.size()); //size of map
+        System.out.println(colorPaint.get("Yellow")); //searching map
     }
 }
