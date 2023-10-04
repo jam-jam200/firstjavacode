@@ -18,12 +18,15 @@ public class FoodApp {
         System.out.println("Are you hungry? Yes or No: ");
         String ans2 = scanner.next();
 
-        while (ans2.equalsIgnoreCase("yes")) {
+        if (ans2.equalsIgnoreCase("yes")) {
             System.out.println("We have Indomie, Swallow and Jellof Rice. WHat would you like among those? ");
             String ans3 = scanner.next();
+        } else {
+            System.out.println("Alright, have a good day👋👋");
         }
+
         }
 
 
     }
-}
+
