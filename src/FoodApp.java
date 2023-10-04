@@ -62,13 +62,14 @@ public class FoodApp {
 
                     }
                 } else{
+                    System.out.println("You have ordered " + ans3 + ".\n To proceed enter password again: ");
                     String pass2 = scanner.next();
 
                     if(pass2.equals(pass1)) {
                         System.out.println("Order is Ready: 🍺🍚 \nThanks for ordering here😊😊");
                     } else {
                         System.out.println("Wrong Password. Try again!");
-                        pass2 = scanner.next();
+                        scanner.next();
                     }
                 }
             }
