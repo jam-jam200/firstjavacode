@@ -70,7 +70,7 @@ public class FoodApp {
                     } else {
                         System.out.println("Wrong Password. Try again!");
                         scanner.next();
-                    }
+                    }   //jjj
                 }
             }
         } else {
