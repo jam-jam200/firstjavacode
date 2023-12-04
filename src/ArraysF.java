@@ -1,4 +1,4 @@
-import java.util.Scanner;
+limport java.util.Scanner;
 
 public class ArraysF {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class ArraysF {
         }
 
         for (int i = 0; i < data.length; i++) {
-            System.out.println("Enter 5 numbers: " + (i + 1) + " : ");
+            System.out.println("Enter 5 druga numbers: " + (i + 1) + " : ");
             data[i] = scanner.nextInt();
         }
 
