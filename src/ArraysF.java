@@ -7,7 +7,7 @@ public class ArraysF {
         String[] words = new String[3];
 
         for (int w = 0; w < words.length; w++) {
-            System.out.println("Enter 5 words: " + (w + 1) + " : ");
+            System.out.println("Enter 5 words:guess " + (w + 1) + " : ");
             words[w] = scanner.next();
         }
 
