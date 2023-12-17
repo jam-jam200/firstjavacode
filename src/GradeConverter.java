@@ -4,7 +4,7 @@ public class GradeConverter {
         System.out.println("Enter the total number of courses taken this semester: ");
         Scanner scanner = new Scanner(System.in);
 
-        int x = scanner.nextInt(); //variable to store total number of courses
+        int x = scanner.nextInt(); //variable to store of courses total number of courses
 
         //array to store scores of courses
         double[] numCourses = new double[x];
