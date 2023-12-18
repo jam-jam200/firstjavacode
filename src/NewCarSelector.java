@@ -5,7 +5,7 @@ public class NewCarSelector {
         carData[1] = "Red";
         carData[2] = "Blue";
         carData[3] = "blue";
-        carData[4] = "Purple";
+        carData[4] = "Purples";
 
         for(int i = 0; i < carData.length; i++) {
             if(carData[i].equalsIgnoreCase("Blue")) {
