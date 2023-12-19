@@ -14,7 +14,7 @@ public class BasicTest {
             answ1 = scanner.next();
         }
 
-        System.out.println("Good answer!");
+        System.out.println("Good or excellent answer!");
         System.out.println("Question 1: What is my favourite fruit? ");
 
         String answ2 = scanner.next();
