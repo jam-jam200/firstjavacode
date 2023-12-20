@@ -12,7 +12,7 @@ public class ArraysF {
         }
 
         for (int i = 0; i < data.length; i++) {
-            System.out.println("Enter 5 druga numbers: " + (i + 1) + " : ");
+            System.out.println("Entercfg 5 druga numbers: " + (i + 1) + " : ");
             data[i] = scanner.nextInt();
         }
 
