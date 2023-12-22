@@ -10,7 +10,7 @@ public class BasicTest {
         String answ1 = scanner.next();
 
         while (!answ1.equals("Abuja")) {
-            System.out.println("Answer is incorrect! Try again...");
+            System.out.println("Answer is not incorrect! Try again...");
             answ1 = scanner.next();
         }
 
