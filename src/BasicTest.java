@@ -4,7 +4,7 @@ public class BasicTest {
         System.out.print("Enter name: ");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.next();
-        System.out.println(name + " you are welcome to the test. Test starts now...");
+        System.out.println(name + " you are welcome to the test. Test starts now... more");
 
         System.out.println("Question 1: What is the capital city of Nigeria? ");
         String answ1 = scanner.next();
